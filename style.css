@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #3c5077;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header button{
+   margin: 30px 300px;
+   height: 40px;
+   width: 100px;
+   border-radius: 20px;
+   border: 0;
+   cursor: pointer;
+   background: white;
+}
+.header h1{
+    font-size: 48px;
+    text-align: center;
+}
+.to{
+    color: lightgreen;
+}
+.do{
+    color: tomato;
+}
+.header p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
